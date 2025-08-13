@@ -39,7 +39,7 @@ if (isset($_POST['registrar'])) {
                 <input type="password" class="form-control" id="clave" name="clave" required>
             </div> 
             <div class="d-flex justify-content-center">
-                <button class="btn btn-success w-100">Registrarse</button>
+                <button type="submit" name="registrar" class="btn btn-success w-100">Registrarse</button>
             </div>
         </form>
     </div>
